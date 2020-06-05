@@ -13,7 +13,7 @@ public class County extends DataSupport {
     public void setId(int id){
         this.id=id;
     }
-    public String CountyName(){
+    public String getCountyName(){
         return CountyName;
     }
     public void setCountyName(String CountyName){
